@@ -1,0 +1,10 @@
+const electronics = [
+  { name: 'Laptop', price: 999.99 },
+  { name: 'Smartphone', price: 599.99 },
+  { name: 'Tablet', price: 299.99 },
+  { name: 'Headphones', price: 49.99 },
+  { name: 'Camera', price: 449.99 }
+];
+let ammount=400
+l=electronics.filter(e=>e.price>ammount)
+console.log(l)
